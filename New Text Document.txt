@@ -1,0 +1,39 @@
+
+الحمد لله
+اشتغل
+
+
+deactivate
+conda activate 2
+pip install ollama requests
+
+C:\Users\m\Desktop\3
+
+https://github.com/oraios/serena
+
+https://docs.astral.sh/uv/getting-started/installation/#shell-autocompletion
+https://docs.astral.sh/uv/getting-started/installation/#pypi
+
+
+
+
+uvx --from git+https://github.com/oraios/serena serena start-mcp-server --context agent --mode interactive --transport sse --port 9121
+
+
+
+uvx --from git+https://github.com/oraios/serena serena activate project --project serena\myproject
+
+
+
+
+طرفية اولى
+(2) C:\Users\m\Desktop\3\serena>uvx --from git+https://github.com/oraios/serena serena start-mcp-server --context agent --mode interactive --transport sse --port 9121
+طرفيه اخرى
+(2) C:\Users\m\Desktop\3\serena\myproject>uvx --from git+https://github.com/oraios/serena serena activate project --project serena\myproject
+
+(2) C:\Users\m\Desktop\3\serena>curl -N http://127.0.0.1:9121/sse
+
+طرفية تالتة
+(2) C:\Users\m\Desktop\3\serena\myproject>python 2.py
+
+pip install ollama requests
